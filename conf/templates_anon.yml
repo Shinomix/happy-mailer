@@ -1,0 +1,5 @@
+# list of templates sent to recipients we cannot find the name
+# You can edit and complete the list below following the same pattern
+-
+  subject: "Today's a great day!"
+  body: "A chinese proverb says \"Make happy those who are near, and those who are far will come\". So, may you share yourself some happiness around you and make people's day the greatest!\n\nCheers!"

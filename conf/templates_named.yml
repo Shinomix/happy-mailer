@@ -1,0 +1,11 @@
+# List of templates sent to recipients we can find the first name
+# You can edit and complete the list below following the same pattern
+#   -- use %{recipient} to designate the email's recipient
+#   -- use %{emitter} to designate yourself
+
+-
+  subject: "Hello you 👋"
+  body: "Hi %{recipient} :)\nLong time no see! I hope you're doing well. That'd be awesome if we can catch up in the following days. Feel free to reach me out so can we find a time together.\n\nCheers, %{emitter}"
+-
+  subject: "Hey! Look! Listen 🎁"
+  body: "It's always good to start the day with nice thoughts on the morning and today it's for you! Have a great day %{emitter}!\n\nBest,\n%{emitter}"

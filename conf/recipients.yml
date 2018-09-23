@@ -1,0 +1,5 @@
+# List of contacts emails will be sent to
+# You can edit and complete the list below adding the emails between quotes preceded by a `-`
+- "john.doe@gmail.com"
+- "alice.smith@gmail.com"
+- "bob.simon@gmail.com"
