@@ -21,12 +21,11 @@ module Mailer
   end
 
   def self.send_mail(recipient, sender, subject, body)
-    puts "> #{recipient} - #{sender}\n#{body}\n\n"
-    # Mail.deliver do
-    #   to target
-    #   from emitter
-    #   subject subject
-    #   body body
-    # end
+    Mail.deliver do
+      to recipient
+      from sender
+      subject subject
+      body body
+    end
   end
 end

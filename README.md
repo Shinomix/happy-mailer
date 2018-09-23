@@ -29,6 +29,6 @@ The list of contacts to send emails to can be filled in `recipients.yml`
 
 ## Run
 The happy mailer can be run in two different ways:
-- As a one time thing running `./run.rb` or ``ruby run.rb`
+- As a one time thing running `./run.rb` or `ruby run.rb`
 - As an automated cron job:
   - TODO explain how to run a cron job on different envs

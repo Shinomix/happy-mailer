@@ -12,7 +12,7 @@ def setup
   Filer.parse_files
 end
 
-def loop_happier
+def start_happier
   sender = Conf.mailer_username
   pretty_sender = Utils.pretty_name_from_email(sender)
 
@@ -28,4 +28,4 @@ def loop_happier
 end
 
 setup
-loop_happier
+start_happier
